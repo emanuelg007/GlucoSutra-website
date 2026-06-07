@@ -1,20 +1,44 @@
+<section class="section">
 
-body{margin:0;font-family:Poppins,sans-serif;background:#F7F2EA;color:#333}
-.hero{padding:90px 20px;text-align:center;background:linear-gradient(to bottom,#f7f2ea,#efe6d8)}
-.logo{width:120px}
-h1,h2{font-family:'Playfair Display',serif;color:#145A66}
-.sub{letter-spacing:1px}
-.btn{display:inline-block;background:#145A66;color:#fff;padding:14px 24px;border-radius:30px;text-decoration:none}
-.section{max-width:1100px;margin:auto;padding:60px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
-.card{background:#fff;padding:18px;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
-.contact{text-align:center}
-.ruby-photo {
-    width: 250px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-    display: block;
-    margin: 0 auto 25px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-}
+<h2>Meet Ruby</h2>
+
+<div class="about-container">
+
+    <img
+        src="ruby-hero.png"
+        alt="Ruby Garanito"
+        class="ruby-photo"
+    >
+
+    <div class="about-text">
+
+        <h3>Ruby Garanito, B.Cur (Stell)</h3>
+
+        <p><strong>Diabetes Nurse Educator</strong></p>
+
+        <p>
+            Diabetes Nurse Educator with experience in the field since 2008,
+            providing personalised, compassionate support.
+        </p>
+
+        <p>
+            Ruby focuses on helping patients achieve their glycaemic targets
+            through practical lifestyle strategies, education and the
+            appropriate individualised use of medication.
+        </p>
+
+        <p>
+            Her goal is to empower people living with diabetes to make
+            confident, informed decisions that improve both glucose control
+            and quality of life.
+        </p>
+
+        <a class="btn" href="https://wa.me/27816839055">
+            Book a Consultation
+        </a>
+
+    </div>
+
+</div>
+
+</section>
