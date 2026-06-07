@@ -42,3 +42,33 @@
 </div>
 
 </section>
+.about-container{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.ruby-photo{
+    width:280px;
+    max-width:100%;
+    height:auto;
+    border-radius:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.about-text{
+    flex:1;
+    min-width:300px;
+}
+
+.about-text h3{
+    margin-top:0;
+    color:#145A66;
+    font-family:'Playfair Display',serif;
+    font-size:28px;
+}
+
+.about-text p{
+    line-height:1.7;
+}
