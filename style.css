@@ -1,74 +1,125 @@
-<section class="section">
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#F7F2EA;
+color:#333;
+line-height:1.7;
+}
 
-<h2>Meet Ruby</h2>
+.hero{
+background:linear-gradient(135deg,#F7F2EA,#EFE4D2);
+padding:80px 20px;
+text-align:center;
+}
 
-<div class="about-container">
+.hero-content{
+max-width:900px;
+margin:auto;
+}
 
-    <img
-        src="ruby-hero.png"
-        alt="Ruby Garanito"
-        class="ruby-photo"
-    >
+.logo{
+width:140px;
+height:auto;
+display:block;
+margin:0 auto 20px;
+}
 
-    <div class="about-text">
+h1,h2,h3{
+font-family:'Playfair Display',serif;
+color:#145A66;
+}
 
-        <h3>Ruby Garanito, B.Cur (Stell)</h3>
+h1{
+font-size:3rem;
+margin-bottom:10px;
+}
 
-        <p><strong>Diabetes Nurse Educator</strong></p>
+.sub{
+color:#666;
+letter-spacing:1px;
+text-transform:uppercase;
+}
 
-        <p>
-            Diabetes Nurse Educator with experience in the field since 2008,
-            providing personalised, compassionate support.
-        </p>
+.hero-text{
+max-width:700px;
+margin:20px auto;
+}
 
-        <p>
-            Ruby focuses on helping patients achieve their glycaemic targets
-            through practical lifestyle strategies, education and the
-            appropriate individualised use of medication.
-        </p>
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:#145A66;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:600;
+margin-top:15px;
+}
 
-        <p>
-            Her goal is to empower people living with diabetes to make
-            confident, informed decisions that improve both glucose control
-            and quality of life.
-        </p>
+.btn:hover{
+opacity:0.9;
+}
 
-        <a class="btn" href="https://wa.me/27816839055">
-            Book a Consultation
-        </a>
-
-    </div>
-
-</div>
-
-</section>
-.about-container{
-    display:flex;
-    align-items:center;
-    gap:50px;
-    flex-wrap:wrap;
+.section{
+max-width:1100px;
+margin:auto;
+padding:70px 20px;
 }
 
 .ruby-photo{
-    width:280px;
-    max-width:100%;
-    height:auto;
-    border-radius:20px;
-    box-shadow:0 4px 15px rgba(0,0,0,.15);
+width:100%;
+max-width:350px;
+display:block;
+margin:30px auto;
+border-radius:20px;
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
 }
 
-.about-text{
-    flex:1;
-    min-width:300px;
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
 }
 
-.about-text h3{
-    margin-top:0;
-    color:#145A66;
-    font-family:'Playfair Display',serif;
-    font-size:28px;
+.card{
+background:white;
+padding:20px;
+border-radius:16px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+transition:transform .2s;
 }
 
-.about-text p{
-    line-height:1.7;
+.card:hover{
+transform:translateY(-4px);
+}
+
+.contact{
+text-align:center;
+background:#EFE4D2;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#666;
+font-size:0.9rem;
+}
+
+@media(max-width:768px){
+
+```
+h1{
+    font-size:2.2rem;
+}
+
+.section{
+    padding:50px 20px;
+}
+
+.logo{
+    width:110px;
+}
+```
+
 }
