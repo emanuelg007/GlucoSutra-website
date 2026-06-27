@@ -1,0 +1,1 @@
+// GlucoSutra JavaScript
